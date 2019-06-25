@@ -17,7 +17,7 @@
 package se.hirt.jmc.tutorial.hotmethods;
 
 import java.util.Collection;
-import java.util.LinkedList;
+import java.util.HashSet;
 
 /**
  * Never mind that this is a ridiculous class to begin with. A one line change can make this example
@@ -27,7 +27,7 @@ public class HolderOfUniqueValues {
 	private Collection<Integer> collection;
 
 	public HolderOfUniqueValues() {
-		collection = new LinkedList<>();
+		collection = new HashSet<>();
 	}
 
 	// Hint: This creates a list of unique elements!
