@@ -34,9 +34,11 @@ public class HotMethods {
 			threads[i].setDaemon(true);
 			threads[i].start();
 		}
-		System.out.print("Press enter to quit!");
+		System.out.print("Running!");
 		System.out.flush();
-		System.in.read();
+		while (true) {
+			
+		}
 	}
 
 }
