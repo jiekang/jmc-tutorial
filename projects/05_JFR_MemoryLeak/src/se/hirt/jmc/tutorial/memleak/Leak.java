@@ -129,8 +129,10 @@ public class Leak {
 		}
 		System.out.println("done!");
 		startAllocThread();
-		System.out.println("Press <enter> to quit!");
-		System.in.read();
+		System.out.println("Starting!");
+		while(true) {
+
+		}
 	}
 
 	private static void startAllocThread() {
